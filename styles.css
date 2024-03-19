@@ -1,0 +1,121 @@
+/**
+
+DARK GRAY: #2B2D42
+GRAY: #8D99AE
+LIGHT GRAY:#EDF2F4
+RED: #EF233C
+DARK RED:#D90429
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    color: #2B2D42;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;;
+}
+
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:url(images/blackwhite.jpg);
+    background-size:cover; 
+    min-height:80vh;
+    opacity: 0.91;
+}
+
+.hero-text{
+    background: #D90429;
+    border-radius: 5px;
+    color: #EDF2F4;
+}
+
+.activity-category {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    height: 400px;
+
+}
+.activity {
+    margin-top:0px; 
+    background: #EDF2F4;
+    height: 600px;
+   
+    
+}
+/*most visited places in brno*/
+.title {
+    font-size: 30px; 
+    margin: 0;
+    padding: 40px 0px 60px; 
+    color: #D90429;
+    text-shadow: 0 0 1px #2B2D42;
+}
+
+.category {
+    max-width: 300px;
+}
+
+/*section*/
+#tour-section {
+    background: url(images/card-background.jpg);
+    background-size: cover;
+    background-position-y:-300px;
+    opacity: 0.91;
+    color: #EDF2F4;
+    height: 600px;
+    
+
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #EDF2F4;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 300px;
+    color:#2B2D42;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom:12px solid #D90429;
+}
+
+.column {
+    width: 200px;
+    height: auto;
+    padding: 2px;
+}
+
+#underground-img {
+    
+    border-radius: 0px;
+}
+
+a {
+    color: #D90429;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+footer {
+    height: 50px;
+    background-color:;
+}
+
+.signature{
+    color: #D90429;
+}
